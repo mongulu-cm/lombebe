@@ -8,3 +8,4 @@ memory-profiler==0.60.0
 #hypothesis==6.46.7
 #mypy==0.960
 isort==5.10.1 # Github action/ isort easy
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
